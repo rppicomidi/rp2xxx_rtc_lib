@@ -25,6 +25,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+#pragma once
 #include <cstdint>
 #include "pico/stdlib.h"
 #include "pico/util/datetime.h"
@@ -120,7 +121,7 @@ public:
      * @return uint32_t the date and time value
      */
     uint32_t get_fat_date_time();
-private:
+
     /**
      * @brief Get the day of the week object
      * 
