@@ -27,7 +27,7 @@
 #include <cmath>
 #include <cstring>
 #include <cstdlib>
-#include "rp2040_rtc.h"
+#include "rp2xxx_rtc.h"
 
 const char* const rppicomidi::Rp2xxx_rtc::month_name[] = {
     "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
